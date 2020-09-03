@@ -1,0 +1,78 @@
+{
+    "name": "cuba_base_profile/cuba_base_profile",
+    "description": "A drupal profile for CUBA/ACCAU",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "lullabot/entity_browser_block_layout": {
+            "type": "vcs",
+            "url": "https://github.com/lullabot/entity_browser_block_layout.git",
+            "no-api": true
+        },
+        "ebremner17/cuba_site_controller": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_site_controller.git"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*",
+        "drupal-custom-module/drupal-custom-module": "*",
+        "drupal-custom-theme/drupal-custom-theme": "*"
+    },
+    "config": {
+        "secure-http": false,
+        "sort-packages": true,
+        "vendor-dir": "../../vendor"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "^1.7",
+        "cweagans/composer-patches": "1.6.3",
+        "oomphinc/composer-installers-extender": "v1.1.2",
+        "drupal/core": "9.0.3",
+        "drupal/devel": "4.0.0",
+        "drupal/config_update": "1.7",
+        "drupal/crop": "2.1",
+        "drupal/entity_browser": "2.5",
+        "drupal/entity_browser_block": "1.1",
+        "drupal/features": "3.11",
+        "drupal/image_widget_crop": "2.3",
+        "drupal/inline_entity_form": "1.0-rc7",
+        "drupal/layout_builder_modal": "1.1",
+        "drupal/layout_builder_browser": "1.1",
+        "drupal/layout_builder_styles": "1.0-beta2",
+        "drupal/layout_builder_restrictions": "2.4",
+        "drupal/pathauto": "1.8",
+        "drupal/publishcontent": "1.2",
+        "drupal/redirect_after_login": "2.6",
+        "drupal/twig_field_value": "2.0.0",
+        "drupal/video_embed_field": "2.4",
+        "drupal/we_megamenu": "1.11",
+        "lullabot/entity_browser_block_layout": "master",
+        "ebremner17/cuba_site_controller": "1.x-dev"
+    },
+    "extra": {
+        "installer-types": [
+            "drupal",
+            "drupal-custom-module"
+        ],
+        "installer-paths": {
+            "../../core": [
+                "type:drupal-core"
+            ],
+            "modules/features/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "themes/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        }
+    }
+}

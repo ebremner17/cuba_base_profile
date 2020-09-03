@@ -38,5 +38,6 @@ install:
   - views_ui
   - tour
   - automated_cron
+  - cuba_site_controller
 themes:
   - cuba_theme
