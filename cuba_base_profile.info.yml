@@ -38,6 +38,7 @@ install:
   - views_ui
   - tour
   - automated_cron
-  - cuba_site_controller
+  - cuba_common_configuration
 themes:
   - cuba_theme
+  - seven
