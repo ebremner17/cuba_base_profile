@@ -13,9 +13,21 @@
             "url": "https://github.com/lullabot/entity_browser_block_layout.git",
             "no-api": true
         },
-        "ebremner17/cuba_site_controller": {
+        "ebremner17/cuba_common_configuration": {
             "type": "vcs",
-            "url": "https://github.com/ebremner17/cuba_site_controller.git"
+            "url": "https://github.com/ebremner17/cuba_common_configuration.git"
+        },
+        "ebremner17/cuba_ct_conference_section": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_ct_conference_section.git"
+        },
+        "ebremner17/cuba_media": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_media.git"
+        },
+        "ebremner17/cuba_paragraphs": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_paragraphs.git"
         }
     },
     "conflict": {
@@ -42,18 +54,20 @@
         "drupal/features": "3.11",
         "drupal/image_widget_crop": "2.3",
         "drupal/inline_entity_form": "1.0-rc7",
+        "drupal/language_switcher_extended": "1.0-beta3",
         "drupal/layout_builder_modal": "1.1",
-        "drupal/layout_builder_browser": "1.1",
-        "drupal/layout_builder_styles": "1.0-beta2",
-        "drupal/layout_builder_restrictions": "2.4",
+        "drupal/layout_paragraphs": "1.0.0-beta3",
         "drupal/pathauto": "1.8",
         "drupal/publishcontent": "1.2",
         "drupal/redirect_after_login": "2.6",
         "drupal/twig_field_value": "2.0.0",
-        "drupal/video_embed_field": "2.4",
+        "drupal/twig_tweak": "3.0.0-rc1",
         "drupal/we_megamenu": "1.11",
         "lullabot/entity_browser_block_layout": "master",
-        "ebremner17/cuba_site_controller": "1.x-dev"
+        "ebremner17/cuba_common_configuration": "1.x-dev",
+        "ebremner17/cuba_ct_conference_section": "1.x-dev",
+        "ebremner17/cuba_media": "1.x-dev",
+        "ebremner17/cuba_paragraphs": "1.x-dev"
     },
     "extra": {
         "installer-types": [
