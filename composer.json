@@ -13,6 +13,10 @@
             "url": "https://github.com/lullabot/entity_browser_block_layout.git",
             "no-api": true
         },
+        "ebremner17/cuba_theme": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_themegit"
+        },
         "ebremner17/cuba_common_configuration": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cuba_common_configuration.git"
@@ -66,7 +70,7 @@
         "drupal/publishcontent": "1.2",
         "drupal/redirect_after_login": "2.6",
         "drupal/superfish": "1.4",
-        "drupal/taxonomy_menu":"3.4",
+        "drupal/taxonomy_menu": "dev-8.x-3.x",
         "drupal/twig_field_value": "2.0.0",
         "drupal/twig_tweak": "3.0.0-rc1",
         "drupal/we_megamenu": "1.11",
@@ -75,6 +79,7 @@
         "ebremner17/cuba_ct_web_page": "dev-1.x-dev",
         "ebremner17/cuba_media": "dev-1.x-dev",
         "ebremner17/cuba_paragraphs": "dev-1.x-dev",
+        "ebremner17/cuba_theme": "dev-1.x-dev",
         "lullabot/entity_browser_block_layout": "master",
         "oomphinc/composer-installers-extender": "v1.1.2"
     },
