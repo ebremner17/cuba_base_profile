@@ -15,7 +15,7 @@
         },
         "ebremner17/cuba_theme": {
             "type": "vcs",
-            "url": "https://github.com/ebremner17/cuba_themegit"
+            "url": "https://github.com/ebremner17/cuba_theme.git"
         },
         "ebremner17/cuba_common_configuration": {
             "type": "vcs",
