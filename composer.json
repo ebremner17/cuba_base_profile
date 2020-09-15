@@ -69,6 +69,7 @@
         "drupal/pathauto": "1.8",
         "drupal/publishcontent": "1.2",
         "drupal/redirect_after_login": "2.6",
+        "drupal/role_delegation": "1.1",
         "drupal/sitemap": "2.0-beta1",
         "drupal/superfish": "1.4",
         "drupal/taxonomy_menu": "dev-3.x",
