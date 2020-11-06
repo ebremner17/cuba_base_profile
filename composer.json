@@ -17,6 +17,10 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/cuba_theme.git"
         },
+        "ebremner17/cuba_ct_board_of_directors": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cuba_ct_board_of_directors.git"
+        },
         "ebremner17/cuba_common_configuration": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cuba_common_configuration.git"
@@ -54,7 +58,7 @@
         "cweagans/composer-patches": "1.6.3",
         "drupal/better_exposed_filters": "5.x-dev",
         "drupal/config_update": "1.7",
-        "drupal/core": "9.0.6",
+        "drupal/core": "9.0.7",
         "drupal/dashboards": "1.0-beta8",
         "drupal/devel": "4.0.0",
         "drupal/editor_file": "1.5",
@@ -78,6 +82,7 @@
         "drupal/twig_field_value": "2.0.0",
         "drupal/twig_tweak": "3.0.0-rc1",
         "drupal/we_megamenu": "1.11",
+        "ebremner/cuba_ct_board_of_directors": "dev-1.x-dev",
         "ebremner17/cuba_common_configuration": "dev-1.x-dev",
         "ebremner17/cuba_ct_conference_section": "dev-1.x-dev",
         "ebremner17/cuba_ct_web_page": "dev-1.x-dev",
