@@ -61,6 +61,7 @@
         "drupal/core": "9.0.7",
         "drupal/dashboards": "1.0-beta8",
         "drupal/devel": "4.0.0",
+        "drupal/draggableviews", "2.0.0",
         "drupal/editor_file": "1.5",
         "drupal/features": "3.11",
         "drupal/jquery_ui": "1.4",
@@ -110,6 +111,16 @@
             "themes/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+            "drupal/draggableviews": {
+                "2.0.0": [
+                    {
+                        "title": "Draggableviews - Sort handler specify order view",
+                        "url": "https://www.drupal.org/files/issues/2020-10-07/draggableviews-sort_handler_specify_order_view-2767437-78.patch"
+                    }
+                ]
+            }
         }
     }
 }
