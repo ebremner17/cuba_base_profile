@@ -83,7 +83,7 @@
         "drupal/twig_field_value": "2.0.0",
         "drupal/twig_tweak": "3.0.0-rc1",
         "drupal/we_megamenu": "1.11",
-        "ebremner/cuba_ct_board_of_directors": "dev-1.x-dev",
+        "ebremner17/cuba_ct_board_of_directors": "dev-1.x-dev",
         "ebremner17/cuba_common_configuration": "dev-1.x-dev",
         "ebremner17/cuba_ct_conference_section": "dev-1.x-dev",
         "ebremner17/cuba_ct_web_page": "dev-1.x-dev",
