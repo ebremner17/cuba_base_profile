@@ -58,7 +58,7 @@
         "cweagans/composer-patches": "1.6.3",
         "drupal/better_exposed_filters": "5.x-dev",
         "drupal/config_update": "1.7",
-        "drupal/core": "9.0.7",
+        "drupal/core": "9.0.8",
         "drupal/dashboards": "1.0-beta8",
         "drupal/devel": "4.0.0",
         "drupal/draggableviews": "2.0.0",
@@ -114,12 +114,7 @@
         },
         "patches": {
             "drupal/draggableviews": {
-                "2.0.0": [
-                    {
-                        "title": "Draggableviews - Sort handler specify order view",
-                        "url": "https://www.drupal.org/files/issues/2020-10-07/draggableviews-sort_handler_specify_order_view-2767437-78.patch"
-                    }
-                ]
+                "Sort handler specify order view": "https://www.drupal.org/files/issues/2020-10-07/draggableviews-sort_handler_specify_order_view-2767437-78.patch"
             }
         }
     }
